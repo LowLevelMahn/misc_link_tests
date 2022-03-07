@@ -26,7 +26,7 @@ defined segments in obj files (veryfied with dmpobj output)
 |            |  _DATA   | DATA   | empty                      |
 
 
-the segments gets merged into the resulting main.com this way
+the segments gets merged this way into a single segment in the resulting main.com
 
 | obj-file   | segment  | class  | content                    |
 | :--------- | :------- | :----- | :------------------------- |
