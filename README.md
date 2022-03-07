@@ -14,7 +14,7 @@ the build.bat contains exact the command line parameters i use to build the samp
 
 defined segments in obj files (veryfied with dmpobj output)
 
-| obj-file   | segment  | class  | info                       |
+| obj-file   | segment  | class  | content                    |
 | :--------- | :------- | :----- | :------------------------- |
 | part_0.obj |  seg000  | CODE   | code + asm0_hello string   |
 |            |  _DATA   | DATA   | empty                      |
@@ -28,7 +28,7 @@ defined segments in obj files (veryfied with dmpobj output)
 
 the segments gets merged into the resulting main.com this way
 
-| obj-file   | segment  | class  | info                       |
+| obj-file   | segment  | class  | content                    |
 | :--------- | :------- | :----- | :------------------------- |
 | part_0.obj |  seg000  | CODE   | code + asm0_hello string   |
 | part_1.obj |  seg000  | CODE   | code                       |
