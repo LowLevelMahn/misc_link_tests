@@ -2,9 +2,7 @@
 16bit linking tests as preparation for a reversing project
 
 
-defined segments in obj files
-
-based on the info from dmpobj
+defined segments in obj files (veryfied with dmpobj output)
 
 | obj-file   | segment  | class  |                                                  
 | :--------- | :------- | :----- |
