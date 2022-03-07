@@ -1,6 +1,6 @@
 # misc_link_tests
 
-16bit assembling, compiling and linking tests as preparation for a big evil reversing project (origin half C half asm)
+16bit assembling, compiling and linking tests as preparation for a big evil reversing project (origin half C, half asm - self modifiying code, etc.)
 
 the build.bat contains exact the command line parameters i use to build the sample, always up to date with my current state
 
