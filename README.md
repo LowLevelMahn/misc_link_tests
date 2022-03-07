@@ -1,5 +1,15 @@
 # misc_link_tests
-16bit linking tests as preparation for a big reversing project
+
+16bit assembling, compiling and linking tests as preparation for a big evil reversing project (origin half C half asm)
+
+the build.bat contains exact the command line parameters i use to build the sample, always up to date with my current state
+
+| file       | info             |                                                  
+| :--------- | :--------------- |
+| part_0.asm | startup code     | 
+| part_1.c   | some C code      | 
+| part_2.asm | data behind code | 
+| build.bat  | build script     | 
 
 
 defined segments in obj files (veryfied with dmpobj output)
