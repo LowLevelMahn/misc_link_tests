@@ -1,5 +1,5 @@
 # misc_link_tests
-16bit linking tests as preparation for a reversing project
+16bit linking tests as preparation for a big reversing project
 
 
 defined segments in obj files (veryfied with dmpobj output)
